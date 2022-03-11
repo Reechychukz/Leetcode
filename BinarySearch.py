@@ -10,6 +10,5 @@ class Solution:
             elif target > nums[pos]:
                 first = pos + 1
             elif target < nums[pos]: 
-                last = pos - 1
-            
+                last = pos - 1           
         return -1
