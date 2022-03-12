@@ -12,4 +12,5 @@ class Solution:
                 first = pos + 1
             else:
                 last = pos - 1
+        
         return first  
