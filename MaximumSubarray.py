@@ -8,8 +8,7 @@ class Solution:
         max_ending_here = 0
         for i in nums:
             max_ending_here += i
-            max_ending_here = max(max_ending_here, 0)
-            
+            max_ending_here = max(max_ending_here, 0)       
             present_max = max(present_max, max_ending_here)
             
         return present_max
