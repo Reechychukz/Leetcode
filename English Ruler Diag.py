@@ -19,3 +19,33 @@ def draw_ruler(num_inches, major_length):
     for j in range(1, 1 + num_inches):
         draw_interval(major_length - 1)
         draw_line(major_length, str(j))
+
+        
+ //Sample
+
+draw_ruler(3, 4)
+---- 0
+-
+--
+-
+---
+-
+--
+-
+---- 1
+-
+--
+-
+---
+-
+--
+-
+---- 2
+-
+--
+-
+---
+-
+--
+-
+---- 3
