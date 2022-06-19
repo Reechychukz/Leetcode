@@ -21,7 +21,7 @@ def draw_ruler(num_inches, major_length):
         draw_line(major_length, str(j))
 
         
- //Sample
+ #Sample
 
 draw_ruler(3, 4)
 ---- 0
