@@ -22,7 +22,7 @@ def draw_ruler(num_inches, major_length):
 
         
  #Sample
-
+"""
 draw_ruler(3, 4)
 ---- 0
 -
@@ -49,3 +49,4 @@ draw_ruler(3, 4)
 --
 -
 ---- 3
+"""
