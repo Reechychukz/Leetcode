@@ -1,0 +1,14 @@
+# Write your MySQL query statement below
+#Solution 1
+SELECT firstName, lastName, city, state
+FROM Person
+LEFT JOIN Address
+ON Person.personId = Address.personId
+
+
+
+#Solution 2
+# Write your MySQL query statement below
+SELECT firstName, lastName, city, state
+FROM Person
+NATURAL LEFT JOIN Address;
