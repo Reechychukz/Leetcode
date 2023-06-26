@@ -12,7 +12,7 @@ var topKFrequent = function(nums, k) {
     }
    
     // Convert the Map to an array of key-value pairs
-    const sortedMap = new Map([...numsMap].sort((a, b) => a[1] > b[1] ? -1 : 1));    
+    const sortedMap = new Map([...numsMap].sort((a, b) => b[1] - a[1]));    
     const sortedMapKeys = Array.from(sortedMap.keys());
     return sortedMapKeys.slice(0, k);
 
