@@ -4,7 +4,6 @@
  */
 var longestConsecutive = function(nums) {
     const numsSet = new Set(nums);
-    let finalSet = new Set();
     let subLength = 0;
     
     for (let i = 0; i < nums.length; i++) {
