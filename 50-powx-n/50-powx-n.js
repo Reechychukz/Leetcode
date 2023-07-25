@@ -9,8 +9,7 @@ var myPow = function(x, n) {
         if (x === 0) return 0;
         if (n === 0) return 1;
         
-        res = helper(x, Math.floor(n / 2))
-        res *= res;
+        res = helper(x * x, Math.floor(n / 2))
         
         return n % 2 === 0 ? res : x * res
     } 
