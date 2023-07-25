@@ -4,21 +4,12 @@
  * @return {number}
  */
 var myPow = function(x, n) {
-    if (n === 0) return 1;
-    if (x === 0) return 0;
-    
-    return x ** n; 
-    
-//     let counter = 0;
-//     let result = 1;
-    
-//     while (counter < Math.abs(n)) {
-//         result *= x;
-//         counter++
-//     }
-    
-//     if (n > 0) return result;
-    
-//     else return 1 / result;
-    
+//     let res;
+//     const helper = (x, n) => {
+//         if (x === 0) return 0;
+//         if (n === 0) return 1;
+        
+//         res = helper
+//     } 
+    return Math.pow(x, n);
 };
