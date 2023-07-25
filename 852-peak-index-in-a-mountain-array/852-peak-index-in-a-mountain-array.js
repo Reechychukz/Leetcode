@@ -3,8 +3,15 @@
  * @return {number}
  */
 var peakIndexInMountainArray = function(arr) {
-    //if (arr[0] <= arr[])
-    for (let i = 0; i < arr.length - 1; i++) {       
-        if (arr[i] > arr[i + 1]) return i;
+    let l = 0,
+        mid,
+        r = arr.length - 1;
+    
+    while (l < r) {
+        mid = Math.floor((l + r) / 2);
+        
+        if (arr[mid] < arr[mid + 1]) l = mid + 1;
+        else r = mid;
     }
+    return l;
 };
